@@ -1,0 +1,40 @@
+# Build artifacts and object files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Executable outputs
+text_input
+image_input
+video_input
+audio_input
+function_call
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Build directories
+build/
+dist/
+.build/
+
+# Debug and profiling
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Environment files
+.env
+.env.local
+.env.*.local
